@@ -25,9 +25,8 @@ if selected_option == "대기오염":
         
     with tabs[1]:
         st.write("이것은 Tab 2의 내용입니다.")
-    
-    st.write("Google Data Studio 대시보드:")
-    st.write('<iframe width="600" height="1200" src="https://lookerstudio.google.com/embed/reporting/3d1b7550-d95b-4cef-aa6b-13f66ca6a5e4/page/XsjYD" frameborder="0" style="border:0" allowfullscreen></iframe>', unsafe_allow_html=True)
+        st.write("Google Data Studio 대시보드:")
+        st.write('<iframe width="600" height="1200" src="https://lookerstudio.google.com/embed/reporting/3d1b7550-d95b-4cef-aa6b-13f66ca6a5e4/page/XsjYD" frameborder="0" style="border:0" allowfullscreen></iframe>', unsafe_allow_html=True)
   
 
 
